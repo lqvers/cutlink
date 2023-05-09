@@ -1,0 +1,22 @@
+{
+  "name": "cutlink",
+  "version": "1.0.0",
+  "description": "Cutlink is a lightweight NPM package that allows you to quickly and easily shorten URLs using a variety of link shortening services. With Cutlink, you can integrate link shortening capabilities into your web or mobile application with just a few lines of code.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "ts-node test/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "lqvers",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
